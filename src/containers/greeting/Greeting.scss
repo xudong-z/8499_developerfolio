@@ -90,6 +90,12 @@
   }
 }
 
+.greeting-image {
+  max-height: 300px; // or any value you prefer
+  height: 100px;
+  width: auto;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
