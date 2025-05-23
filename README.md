@@ -46,7 +46,7 @@ npm start
 docker build -t developerfolio:latest .
 
 # Run the container
-docker run -p 3000:3000 developerfolio:latest
+docker run -p 8499:8499 developerfolio:latest
 ```
 
 ## Configuration
@@ -87,6 +87,3 @@ The portfolio can be deployed to:
 - React Headroom
 - Color Thief
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
