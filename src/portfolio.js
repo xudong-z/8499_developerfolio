@@ -32,7 +32,7 @@ const greeting = {
     </>
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1aw3ZhG_ePOT9XWPQNTOhvqfMTjFZen5Q/view?usp=sharing", // Replace with your actual resume link
+    "https://drive.google.com/file/d/1aw3ZhG_ePOT9XWPQNTOhvqfMTjFZen5Q/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -129,7 +129,7 @@ const educationInfo = {
       logo: require("./assets/images/sjtuLogo.png"), // You'll need to add this image
       subHeader: "Bachelor of Science in Bio-technology",
       duration: "2012 - 2016",
-      desc: "Emphasis in Bio-statistics and Bio-informatics with GPA 3.43/4.0",
+      desc: "Major in Bio-Stats and Bio-Informatics with GPA 3.43/4.0",
       descBullets: [
         "Study on the Anti-aging Role of Sacha Inchi Oil (National Undergraduate Innovation Program, 2014)",
         "Academic Excellence Scholarship (First Class) of SJTU, 2014",
@@ -254,7 +254,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/ragLLM.png"), // You'll need to add this image
-      projectName: "LLM Agent for Financial Derivatives",
+      projectName: "LLM - Rag Agent for Commodities Derivatives",
       projectDesc: "Advanced language model enhanced with specialized knowledge on financial derivatives using RAG, llama_index, and deepseek technologies",
       footerLink: [
         {
@@ -265,11 +265,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/olympicMedalists.png"), // You'll need to add this image
-      projectName: "Summer Olympic Medalists",
+      projectName: "Olympic Medalists Demographics (Wikipedia)",
       projectDesc: "Scraped all Wikipedia pages to get info of 21,000+ summer Olympic medalists, and created an animated visualization tool to analyze age/nationality/sports/gender",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Web App",
           url: "https://olympics-medalists.herokuapp.com/"
         }
       ]
@@ -402,12 +402,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Write to Me 🖋️"),
   subtitle:
     "Discuss a project or just want to say hi? I'm happy to connect!",
   number: "", // You can add your phone number here if you want
   email_address: "xudong.zhg@gmail.com",
-  address: "23 Church Street, Singapore 049481"
 };
 
 // Twitter Section
